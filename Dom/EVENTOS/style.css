@@ -1,0 +1,9 @@
+body {
+    background-color: beige;
+}
+
+button:hover {
+    padding: 16px 33px;
+    background-color: rgba(121, 116, 172, 0.866);
+    border: ;
+}
