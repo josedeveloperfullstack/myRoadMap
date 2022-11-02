@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center;
+ }
+.attribution a {
+  color: hsl(228, 45%, 44%); 
+ }
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+input, button, textarea, select {
+  font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+#root, #__next {
+  isolation: isolate;
+}
+
+:root{
+    font-family: 'Outfit', sans-serif;
+   --white: hsl(0, 0%, 100%);
+   --light-gray: hsl(212, 45%, 89%);
+   --grayish-blue: hsl(220, 15%, 55%);
+   --dark-blue: hsl(218, 44%, 22%);
+  }
+.wrapper {
+  width: 375px;
+  background-color: var(--white);
+  border-radius: 0.5rem;
+  padding: 1.25rem;
+}
+.wrapper img {
+  border-radius: 1.25rem;
+}
+
+.wrapper h1 {
+  font-size: 25px;
+  text-align: center;
+  margin: 4px;
+}
+.wrapper p {
+  color: var(--dark-blue);
+}
+  body {
+    background-color: var(--grayish-blue);
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    padding: 1.25rem;
+  }
+
+  form {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+  }
+
+  form input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+  }
+  
