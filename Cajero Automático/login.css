@@ -24,6 +24,7 @@
   */
   body {
     line-height: 1.5;
+    padding: 20px 20px 20px;
     -webkit-font-smoothing: antialiased;
   }
   /*
@@ -33,6 +34,7 @@
     display: block;
     max-width: 100%;
   }
+
   /*
     7. Remove built-in form typography styles
   */
@@ -52,6 +54,22 @@
     isolation: isolate;
   }
 
-  #logoBanco {
+  .logoBancolombia {
 
+    height: 60px;
+    
+  }
+
+  p {
+
+    margin: 10px;
+    font-size: 20px;
+   display: flex;
+   justify-content: start;    }
+   
+   
+  .inicioDeSección {
+    background-color: black;
+    width: 100px;
+    height: 20px;
   }
